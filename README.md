@@ -14,13 +14,13 @@ _In Visual Studio_
             --> Restore Packages
 
     - Tools Tab 
-        --> Extensions and Updates
+        -> Extensions and Updates
             --> Expand Updates
                 ---> Update Web Extension Pack
 
     - View Tab
-        --> Other Windows
-            ---> Task Runner Explorer
+        -> Other Windows
+            --> Task Runner Explorer
             
 _In the Task Runner Explorer_
 
