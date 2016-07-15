@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Test Components";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+@Html.React("Components.HelloMessage" , new { message = "Hello from a razer view!" })
+
+<hr />
+
+@Html.React("Components.Foo" , new { userName = "pass in a user name here!", title = "Foo Component!" })
+
+@section scripts {
+    <script src="https://fb.me/react-with-addons-15.2.1.min.js"></script>
+    <script src="https://fb.me/react-dom-15.2.1.min.js"></script>
+
+    <script src="~/js/client.bundle.min.js"></script>
+    @Html.ReactInitJavaScript()
+}
