@@ -69,19 +69,8 @@ ensure that both JavaScript and StyleSheets have a binding of _Before Build_
 
 Webpack must also run during pre-build. 
 
-_In the Task Runner Explorer_
-
-    - Expand bundleconfig.json
-        -> Right Click JavaScript
-            --> Bindings 
-                ---> Ensure "Build Before" Is Checked
-        -> Right Click Stylesheets
-            --> Bindings 
-                ---> Ensure "Build Before" Is Checked
-                
-                
-
-                
+Locate `webpack.config.js` in the _Task Runner Explorer_, expand it, then expand 
+development, then right click `Run - Development` and bind it to _Before Build_
 
 [^1]: Required extensions and updates.
 [^2]: Dependencies may still show as not installed.
