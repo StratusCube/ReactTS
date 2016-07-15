@@ -56,7 +56,7 @@ Open the solution file `ReactTS.sln`.
 
 1. Restore packages
     1. Right click _Dependencies_ in the solution explorer
-    2. Click restore packages[^2]
+    2. Click restore packages [^2]
 2. Open the Task Runner Explorer
     * Via Menus 
         1. Open the _view_ menu
