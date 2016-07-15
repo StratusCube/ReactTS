@@ -12,7 +12,7 @@ var HelloMessage = (function (_super) {
         _super.apply(this, arguments);
     }
     HelloMessage.prototype.render = function () {
-        return React.createElement("div", null, "Hello ", this.props.message);
+        return React.createElement("div", null, this.props.message);
     };
     return HelloMessage;
 }(React.Component));
