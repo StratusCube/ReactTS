@@ -5,9 +5,10 @@
   "devDependencies": {
     "webpack": "1.12.9",
     "expose-loader": "0.7.1",
-    "jsx-loader": "0.13.2",
     "babel-loader": "^6.2.4",
     "babel-core": "^6.10.4",
-    "ts-loader": "^0.8.2"
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "materialize-css": "^0.97.6"
   }
 }

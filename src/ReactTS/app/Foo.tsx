@@ -18,8 +18,8 @@ class Foo extends React.Component<FooProps, FooState> {
         this.state = {
             title: this.props.title
         };
-        this.Titles = ["Foo", "Bar", "Biz", "Bash"]; 
-    }   
+        this.Titles = ["Foo", "Bar", "Biz", "Bash"];
+    }
     click(event) {
         this.state.title = this.Titles[Math.floor(Math.random() * 4)];
         this.setState(this.state);

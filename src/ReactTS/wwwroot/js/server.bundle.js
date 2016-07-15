@@ -144,6 +144,7 @@
 	    Foo.prototype.click = function (event) {
 	        this.state.title = this.Titles[Math.floor(Math.random() * 4)];
 	        this.setState(this.state);
+	        Materialize.toast("Whatt Upppp!@", 2000);
 	    };
 	    Foo.prototype.render = function () {
 	        var _this = this;
