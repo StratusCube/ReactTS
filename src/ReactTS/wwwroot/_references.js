@@ -1,7 +1,6 @@
 ﻿/// <autosync enabled="true" />
 /// <reference path="../app/build/Foo.js" />
 /// <reference path="../app/build/HelloWorld.js" />
-/// <reference path="../app/helloworld.js" />
 /// <reference path="../app/index.js" />
 /// <reference path="../webpack.config.js" />
 /// <reference path="js/client - copy.bundle.js" />

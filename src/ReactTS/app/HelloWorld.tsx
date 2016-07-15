@@ -11,7 +11,7 @@ interface HelloWorldProps extends React.Props<any> {
 
 class HelloMessage extends React.Component<HelloWorldProps, {}> {
     render() {
-        return <div>Hello {this.props.message}</div>;
+        return <div>{this.props.message}</div>;
     }
 }
 

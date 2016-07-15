@@ -1,4 +1,4 @@
-/// <binding BeforeBuild='Run - Development' AfterBuild='Run - Development' />
+/// <binding BeforeBuild='Run - Development' />
 var path = require('path');
 
 module.exports = {
