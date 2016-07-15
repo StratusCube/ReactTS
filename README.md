@@ -13,9 +13,9 @@ Run the following command to install NPM using chocolatey
 
 If you wish to install NPM another way please see [npmJS](https://www.npmjs.com/)
 
-Now that NPM is installed you can install webpack and (optionally) TypeScript
+Now that NPM is installed you can install webpack and (optionally) TypeScript.
 
-to do so type the following into your command window.
+To do so type the following into your command window.
 
 
 ```
@@ -29,7 +29,7 @@ If you choose to install TypeScript globally use
 npm install -g typescript
 ```
 
-TypeScript is included in this template under packages.json
+__TypeScript is included in this template under packages.json_
 
 You still may need to link TypeScript to the project. If that is the case `cd` 
 to the directory containing the solution file and run `npm ling typescript`
