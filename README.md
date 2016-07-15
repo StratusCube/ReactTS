@@ -29,7 +29,7 @@ If you choose to install TypeScript globally use
 npm install -g typescript
 ```
 
-Type script in included in this template under packages.json
+TypeScript is included in this template under packages.json
 
 You still may need to link TypeScript to the project. If that is the case `cd` 
 to the directory containing the solution file and run `npm ling typescript`
@@ -38,18 +38,19 @@ ___
 
 Now that NPM is installed with webpack and (optionally) TypeScript We can move on.
 
-## Run ReactTS Template
-
-Open the solution file `ReactTS.sln`.
+## Recommended Extensions for ReactTS Template
 
 It is recommended that you have the following extensions installed for 
 Visual Studio:
 
-* [Webpack Task Runner] (https://visualstudiogallery.msdn.microsoft.com/5497fd10-b1ba-474c-8991-1438ae47012a)[^1]
-* [NPM Task Runner](https://visualstudiogallery.msdn.microsoft.com/8f2f2cbc-4da5-43ba-9de2-c9d08ade4941)[^1]
-* [ASP.NET and Web Tools](https://visualstudiogallery.msdn.microsoft.com/32f1fa1b-cdd5-4bd3-8f51-cd8f099f46bc?SRC=Featured)[^1]
+* [Webpack Task Runner] (https://visualstudiogallery.msdn.microsoft.com/5497fd10-b1ba-474c-8991-1438ae47012a) [^1]
+* [NPM Task Runner](https://visualstudiogallery.msdn.microsoft.com/8f2f2cbc-4da5-43ba-9de2-c9d08ade4941) [^1]
+* [ASP.NET and Web Tools](https://visualstudiogallery.msdn.microsoft.com/32f1fa1b-cdd5-4bd3-8f51-cd8f099f46bc?SRC=Featured) [^1]
 * [Web Essentials 2015](https://visualstudiogallery.msdn.microsoft.com/ee6e6d8c-c837-41fb-886a-6b50ae2d06a2)
 * [Web Extension Pack](https://visualstudiogallery.msdn.microsoft.com/f3b504c6-0095-42f1-a989-51d5fc2a8459)
+
+
+Open the solution file `ReactTS.sln`.
 
 ## Setting Up Pre-Build Tasks
 
