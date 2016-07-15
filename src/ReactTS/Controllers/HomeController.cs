@@ -14,6 +14,7 @@ namespace ReactTS.Controllers
         }
 
         public IActionResult ReactTS() {
+            ViewData["UserName"] = "Bob Jones";
             ViewData["Message"] = "See the test components below";
             return View();
         }
