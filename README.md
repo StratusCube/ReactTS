@@ -29,7 +29,7 @@ If you choose to install TypeScript globally use
 npm install -g typescript
 ```
 
-__TypeScript is included in this template under packages.json_
+_TypeScript is included in this template under packages.json_
 
 You still may need to link TypeScript to the project. If that is the case `cd` 
 to the directory containing the solution file and run `npm ling typescript`
