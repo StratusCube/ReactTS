@@ -2,7 +2,7 @@
 
 ## Install __Node__ and __NPM__ Using Chocolatey
 
-__Important:__ You have 
+__Important:__ You must have 
 [chocolatey](https://chocolatey.org/) before continuing.
 
 Run the following command to install NPM using chocolatey
