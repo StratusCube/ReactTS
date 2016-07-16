@@ -1,13 +1,13 @@
 # ReactTS Template Setup
 
-## Install __NPM__ Using Chocolatey
+## Install __Node__ and __NPM__ Using Chocolatey
 
 __Important:__ You have 
 [chocolatey](https://chocolatey.org/) before continuing.
 
 Run the following command to install NPM using chocolatey
 
-`cinst -yf npm`
+`cinst -yf nodejs npm`
 
 ## Install __NPM__ Using the windows installer
 
