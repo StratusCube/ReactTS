@@ -53,19 +53,25 @@ namespace ReactTS
             {
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
+
+                app.UseReact(config => {
+                    config
+                        .SetReuseJavaScriptEngines(true)
+                        .AddScriptWithoutTransform("~/js/server.bundle.min.js");
+                });
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+
+                app.UseReact(config => {
+                    config
+                        .SetReuseJavaScriptEngines(true)
+                        .AddScriptWithoutTransform("~/js/server.bundle.js");
+                });
             }
 
             app.UseApplicationInsightsExceptionTelemetry();
-
-            app.UseReact(config => {
-                config
-                    .SetReuseJavaScriptEngines(true)
-                    .AddScriptWithoutTransform("~/js/server.bundle.min.js");
-            });
 
             app.UseStaticFiles();
 
