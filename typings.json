@@ -3,6 +3,7 @@
     "react": "registry:npm/react#15.0.1+20160601175240"
   },
   "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008",
     "material-ui": "registry:dt/material-ui#0.15.1+20160711163118",
     "materialize-css": "registry:dt/materialize-css#0.97.5+20160628040906",
     "react": "registry:dt/react#0.14.0+20160630100702",
