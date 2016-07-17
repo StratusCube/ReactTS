@@ -13,13 +13,14 @@
 @Html.React("Components.Foo" , new { userName = ViewData["UserName"] , title = "Foo Component!" })
 
 @section scripts {
-    <script src="https://fb.me/react-15.2.1.min.js"></script>
-    <script src="https://fb.me/react-dom-15.2.1.min.js"></script>
-
     <environment names="Development">
+        <script src="https://fb.me/react-with-addons-15.2.1.js"></script>
+        <script src="https://fb.me/react-dom-15.2.1.js"></script>
         <script src="~/js/client.bundle.js"></script>
     </environment>
     <environment names="Staging,Production">
+        <script src="https://fb.me/react-with-addons-15.2.1.min.js"></script>
+        <script src="https://fb.me/react-dom-15.2.1.min.js"></script>
         <script src="~/js/client.bundle.min.js"></script>
     </environment>
 

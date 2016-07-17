@@ -8,6 +8,8 @@
   {
     "outputFileName": "wwwroot/js/client.bundle.min.js",
     "inputFiles": [
+      //"node_modules/react-transition/dist/react-transition.js",
+      //"node_modules/react-addons-css-transition-group/index.js",
       "wwwroot/js/client.bundle.js"
     ],
     "minify": {

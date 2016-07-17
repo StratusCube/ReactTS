@@ -9940,7 +9940,10 @@
 	        _super.apply(this, arguments);
 	    }
 	    HelloMessage.prototype.render = function () {
-	        return React.createElement("div", null, this.props.message);
+	        return(
+	            //<ReactCSSTransitionGroup transitionName="example" transitionEnterTimeout={500} transitionLeaveTimeout={500} transitionAppear={true} transitionAppearTimeout={500}>
+	            React.createElement("div", null, this.props.message)
+	        );
 	    };
 	    return HelloMessage;
 	}(React.Component);

@@ -7,6 +7,8 @@
     "material-ui": "registry:dt/material-ui#0.15.1+20160711163118",
     "materialize-css": "registry:dt/materialize-css#0.97.5+20160628040906",
     "react": "registry:dt/react#0.14.0+20160630100702",
+    "react-addons-css-transition-group": "registry:dt/react-addons-css-transition-group#0.14.0+20160316155526",
+    "react-addons-transition-group": "registry:dt/react-addons-transition-group#0.14.0+20160701001352",
     "require": "registry:dt/require#2.1.20+20160316155526"
   }
 }

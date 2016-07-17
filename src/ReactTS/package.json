@@ -9,7 +9,10 @@
     "babel-core": "^6.10.4",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
-    "materialize-css": "^0.97.6"
+    "materialize-css": "^0.97.6",
+    "react": "^15.2.1",
+    "react-addons-css-transition-group": "^15.2.1",
+    "react-transition": "^1.0.3"
   },
   "dependencies": {}
 }
