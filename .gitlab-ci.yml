@@ -8,5 +8,4 @@ job:
     script:
         - echo "Restoring packages"
         - '.build\nuget.exe restore ReactTs.sln'
-        - 'npm install src\ReactTS\ --save'
         - '.build\MSBuild.exe ReactTS.sln /p:configuration=Release /clp:ErrorsOnly /m'
