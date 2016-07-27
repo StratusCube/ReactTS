@@ -10,5 +10,5 @@ job:
         - '.build\nuget.exe restore ReactTs.sln'
         - 'src\ReactTS\node_modules\.bin\bower install'
         - '.build\MSBuild.exe ReactTS.sln /p:configuration=Release /clp:ErrorsOnly /m'
-        - 'cd src\ReactTS'
+        - cd src\ReactTS
         - 'node_modules\.bin\bower.cmd install'
