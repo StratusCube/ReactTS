@@ -1,0 +1,11 @@
+stages:
+  - build
+
+job:
+  stage: build
+  tags: 
+    - csharp
+    - mvc
+  script:
+    - dotnet restore
+    - dotnet build src\ReactTS\
