@@ -1,0 +1,11 @@
+stages:
+    - build
+
+job:
+    stage: build
+    tags: csharp
+    script:
+        - echo "Restoring packages"
+        - .buildtools\nuget.exe restore ReactTs.sln
+        - npm install src\ReactTS
+        - '.buildtools\MSBuild.exe ReactTS.sln /p:configuration=Release /clp:ErrorsOnly /m'
