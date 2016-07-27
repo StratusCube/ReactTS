@@ -12,7 +12,8 @@
     "materialize-css": "^0.97.6",
     "react": "^15.2.1",
     "react-addons-css-transition-group": "^15.2.1",
-    "react-transition": "^1.0.3"
+    "react-transition": "^1.0.3",
+    "bower": "latest"
   },
   "dependencies": {}
 }
