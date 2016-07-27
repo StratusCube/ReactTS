@@ -11,5 +11,5 @@ job:
         - 'src\ReactTS\node_modules\.bin\bower install'
         - '.build\MSBuild.exe ReactTS.sln /p:configuration=Release /clp:ErrorsOnly /m'
         - cd src\ReactTS
-        - ls
+        - dir
         - 'node_modules\.bin\bower.cmd install'
