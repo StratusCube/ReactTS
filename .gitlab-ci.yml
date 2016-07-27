@@ -3,7 +3,8 @@ stages:
 
 job:
     stage: build
-    tags: csharp
+    tags: 
+        - csharp
     script:
         - echo "Restoring packages"
         - .buildtools\nuget.exe restore ReactTs.sln
