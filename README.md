@@ -1,6 +1,7 @@
 # ReactTS Template Setup
 
-![Build Badge](https://stratuscube.visualstudio.com/_apis/public/build/definitions/e8ce00ea-5f97-401a-97de-35e1938633c2/4/badge)
+__Gitlab__ [![build status](http://git.stratuscube.com:8088/templates/ReactTS/badges/master/build.svg)](http://git.stratuscube.com:8088/templates/ReactTS/commits/master)
+__VSTS__ ![VSTS Build Badge](https://stratuscube.visualstudio.com/_apis/public/build/definitions/e8ce00ea-5f97-401a-97de-35e1938633c2/4/badge)
 
 ## Install __Node__ and __NPM__ Using Chocolatey
 
