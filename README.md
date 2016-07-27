@@ -35,7 +35,7 @@ npm install -g typescript
 _TypeScript is included in this template under packages.json_
 
 You still may need to link TypeScript to the project. If that is the case `cd` 
-to the directory containing the solution file and run `npm ling typescript`
+to the directory containing the solution file and run `npm link typescript`
 
 ___
 
